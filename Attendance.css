@@ -1,0 +1,222 @@
+
+.total {
+    
+    height: 97.85vh;
+    width: 100%;
+   
+    display: grid;
+    box-shadow: 0 0 10px black;
+    grid-template-rows: 13% 15% 15% 50%;
+   
+}
+
+
+.total .sr,.tr {
+    display: flex;
+
+}
+
+
+.sr div {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 5vh 5vw 0px 5vw
+}
+
+.tr div {
+    font-size: 20px ;
+    font-weight: bolder;
+}
+
+.tr {
+   display: flex;
+   
+}
+.tr div {
+    margin: 2vw 2vw 0 5vw;
+}
+
+.tr select {
+    height: 3.5vh;
+    width: 9vw;
+    border-radius: 5px;
+    font-size: 15px;
+    color: darkcyan;
+}
+select option {
+    margin: 15px;
+    padding: 15px;
+    font-size: 20px;    
+    color: darkcyan;
+}
+
+
+.tr .report button{
+    margin:-0.5vh 0 0 0;
+    box-sizing: border-box;
+    width: 8vw;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight:bolder;
+    border: 0;
+    background-color:darkcyan;
+    color: white;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+.tr .course {
+    margin-left: 4.8vw;
+}
+
+.att {
+    
+    font-size: 35px;
+    background-color:darkcyan;
+    
+    font-weight: bolder;
+    color: white;
+    align-content: center;
+    padding-left: 2vw;
+   
+}
+
+.att #back{
+    color: white;
+    text-decoration: none;
+    margin-left: -1.5vw;
+    margin-right: 0.5vw;
+    padding: 0 0.5vw 0 0.5vw;
+}
+
+.att div {
+    padding-left: vw;
+    width: 25%;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 60%;
+    border-bottom: 7px solid gold;
+    
+}
+
+#back:hover {
+    background-color: white;
+    color: darkcyan;
+}
+
+.fr {
+    height: 100%;
+    width: 100%;
+}    
+/*
+.allcourses {
+    margin-top: 3vh;
+    height: 100%;
+    width: 50%;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px black;
+    margin-left:25%;
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+
+.allcourses .heading{
+    
+    height: 6vh;
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    align-items: center;
+    z-index: 3;
+}
+
+.allcourses .data {
+
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.data .one {
+    
+    font-weight: bolder;
+    margin-top:0px;
+   
+    padding: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+.one div.cn {
+    margin-left: -4vw;
+   
+}
+
+.one div.tc {
+    margin-left: 0vw;
+}
+
+.one div.ac {
+    margin-left: 1vw;
+}
+
+.one div.p {
+    margin-right: -3vw;
+}
+*/
+
+.table {
+    display:none;
+    width: 50%;
+   box-sizing: border-box;
+    margin: 3vh 0px 0px 24.5vw;
+  
+}
+
+table {
+ 
+    width: 100%;
+   
+    box-shadow: 0px 0px 10px black;
+ 
+}
+
+tr.head {
+   
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: darkslategray;
+    color: white;
+}
+
+tr.data {
+    background-color: whitesmoke;
+    font-size: 25px;
+    border: 2 solid black;
+    
+    font-weight: bolder;
+}
+
+
+
+tr.single {
+    background-color: whitesmoke;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#d1 ,#d2,#d3,#d4,#d5,#d6 {
+   display: none;
+}

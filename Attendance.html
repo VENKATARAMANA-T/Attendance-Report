@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Attendance.css">
+</head>
+<body>
+    <div class="total">
+       <div class="att">  <a href="" id="back">&lt;</a> <div> Attendance Report </div></div>
+        <div class="sr">
+            <div class="name">Name : StudentName</div>
+            <div class="prog">Program : B.Tech</div>
+            <div class="Branch">Branch : CSE</div>
+            <div class="ID">ID : CB.SC.U4CSE23XXX</div>
+        </div>
+
+        <div class="tr">
+            <div class="sem">Semester : 
+                <select name="" id="" required>
+                    <option value="1">1</option>
+                </select>
+            </div>
+            <div class="course">Course : 
+                            <select name="course" id="course" required>
+                                <option value="ALL">ALL</option>
+                                <option value="d1" >OOPS</option>
+                                <option value="d2">UID</option>
+                                <option value="d3">Linear Algebra</option>
+                                <option value="d4">Discrete Maths</option>
+                                <option value="d5">Modern Physics</option>
+                                <option value="d6">ADM</option>
+                             
+                            </select>
+            </div>
+        
+
+            <div class="report"><button > REPORT</button></div>
+        </div>
+        <div class="fr">        
+
+            
+           <div class="table"> <table border='0' cellspacing='0' cellpadding='10' ><tr class='head'> <th>Course Name</th >     <th>Total Classes</th>   <th>Attended</th> <th>Percentage</th></tr><tr class='data' align='center' id='d1'><td>OOPS</td><td>50</td><td>50</td> <td class="p">100</td></tr><tr class='data'align='center' id='d2'> <td>UID</td><td>50</td> <td>39</td> <td class="p">76</td></tr><tr class='data'align='center' id='d3'>  <td>Linear Algebra</td> <td>50</td><td>38</td>   <td class="p">75</td></tr><tr class='data'align='center' id='d4'> <td>Discrete Maths</td>  <td>50</td>   <td>43</td> <td class="p">85</td></tr><tr class='data'align='center' id='d5'> <td>Modern Physics</td> <td>50</td>    <td>30</td><td class="p">60</td></tr><tr class='data'align='center' id='d6'><td>ADM</td> <td>50</td> <td>48</td>  <td class="p">95</td></tr></table></div>
+    </div>
+    
+        <script src="Attendance.js"></script>
+</body>
+</html>
